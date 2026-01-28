@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  functions:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - FIRECRAWL_SERVICE=${FIRECRAWL_SERVICE}
+      - NODE_ENV=${NODE_ENV:-production}

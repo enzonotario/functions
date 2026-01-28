@@ -1,0 +1,13 @@
+{
+  "name": "functions-enzonotario",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "bun run firecrawl.js",
+    "dev": "bun run --watch firecrawl.js"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "openai": "^6.16.0"
+  }
+}
